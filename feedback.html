@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body style="background-image: url('IMG.JPG'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center;">
+    
+<a href="feedback.html">
+    <button type="button" class="btn btn-outline-primary">Feedback</button>
+</a>    
+    
+<div class="navbar">
+    <a href="home.html">Home</a>
+    <a href="clothes.html">Clothes</a>
+    <a href="foods.html">Foods</a>
+    <a href="Music.html">Musics</a>
+    <a href="festivals.html">Festivals</a>
+    <a href="Local games.html">Local Games</a>
+</div>
+
+
+<form action="Form.html" method="get">
+<fieldset>
+    <legend> Personal Info: </legend>   
+<table>    
+<tr>
+    <td><label for="name"> Full-Name: </label></td>
+    <td><input type="text" id="name" name="name" required></td>
+</tr>
+<tr>
+    <td><label for="email"> Email-Address: </label></td>
+    <td><input type="email" id="email" name="email" required></td> 
+</tr>
+<tr>
+    <td><label for="gender"> Gender: </label></td>
+    <td><input type="radio" name="gender" value="m" required> Male
+    <input type="radio" name="gender" value="f" required> Female </td>
+</tr>
+</table>
+</fieldset>
+
+<fieldset>
+<legend> What is your feedback? </legend>    
+<tr>
+ <input type="checkbox" name="feedback" value="outstanding"> <b>Outstanding</b> - perfect without any mistake. <br>
+ <input type="checkbox" name="feedback" value="inaccurate"> <b>Inaccurate</b> - dosent match my understanding/knoweldge. <br>
+ <input type="checkbox" name="feedback" value="missing information"> <b>Missing information</b> - relevent but not comperhensive. <br>
+ <input type="checkbox" name="feedback" value="irrelevant"> <b>Irrelevent</b> - Not useful to my purpose. <br>
+ <input type="checkbox" name="feedback" value="minor errors"> <b>Minor errors</b> -  Formatting issues. <br>
+ <input type="checkbox" name="feedback" value="other enquiry"> <b>Other enquiry</b> - question about our contentor or products. <br>
+</tr>
+</fieldset>
+
+<fieldset>
+<legend> Share additional information, question or suggestion: </legend>
+<textarea name="comment" placeholder="information, question or suggestion......" rows="5" cols="40" maxlength="180" style="border-radius: 9px;"> </textarea><br><br> 
+<input type="submit" style="color: rgb(120, 67, 21); border-radius: 9px; border-color: rgb(235, 234, 229);"> 
+<input type="reset" style="color: rgb(120, 67, 21); border-radius: 9px; border-color: rgb(235, 234, 229);"> 
+</fieldset>
+
+</form>
+</body>
+</html>
